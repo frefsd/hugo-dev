@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ai on fanchen&#39;s blog</title>
-    <link>https://frefsd-gzi.github/hugo-dev/tags/ai/</link>
+    <link>https://frefsd.github.io/hugo-dev/tags/ai/</link>
     <description>Recent content in Ai on fanchen&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://frefsd-gzi.github/hugo-dev/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frefsd.github.io/hugo-dev/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python 与人工智能：从零开始的完整入门指南</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/python/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/python/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/python/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/python/</guid>
       <description>&lt;h1 id=&#34;python-与人工智能从零开始的完整入门指南&#34;&gt;Python 与人工智能：从零开始的完整入门指南&lt;/h1&gt;&#xA;&lt;p&gt;在当今科技时代，人工智能（AI）正深刻改变着我们的生活——从语音助手到自动驾驶，从智能推荐到大语言模型。而在这场技术革命中，&lt;strong&gt;Python 是最核心、最广泛使用的编程语言&lt;/strong&gt;。它不仅是 AI 研究的首选工具，也是工业界部署 AI 应用的主流选择。无论是谷歌、Meta、OpenAI 还是国内的百度、阿里、腾讯，它们的 AI 系统背后都离不开 Python 的支持。&lt;/p&gt;&#xA;&lt;p&gt;为什么 Python 能成为人工智能的“第一语言”？答案在于它的三大优势：&lt;strong&gt;语法简洁、生态强大、社区活跃&lt;/strong&gt;。Python 的语法接近自然语言，学习门槛低，开发效率高，让研究人员和工程师能快速实现想法。更重要的是，Python 拥有为 AI 量身定制的庞大库生态系统，覆盖数据处理、机器学习、深度学习、自然语言处理等所有关键领域。全球数百万开发者持续贡献代码、教程和预训练模型，使得 Python 成为进入 AI 世界的“通用钥匙”。&lt;/p&gt;&#xA;&lt;p&gt;要理解 Python 如何支撑人工智能，我们首先需要掌握它的基础语法。Python 的变量定义非常直观，无需声明类型，直接赋值即可。例如，你可以写 &lt;code&gt;name = &amp;quot;小明&amp;quot;&lt;/code&gt; 来存储一个名字，&lt;code&gt;age = 20&lt;/code&gt; 来记录年龄，&lt;code&gt;is_student = True&lt;/code&gt; 表示布尔状态。Python 支持多种数据结构：列表（list）用于存储有序数据，如 &lt;code&gt;scores = [85, 90, 78]&lt;/code&gt;；字典（dict）以键值对形式组织信息，如 &lt;code&gt;student = {&amp;quot;name&amp;quot;: &amp;quot;小明&amp;quot;, &amp;quot;score&amp;quot;: 85}&lt;/code&gt;；元组（tuple）则用于不可变的数据集合，如坐标点 &lt;code&gt;point = (3, 4)&lt;/code&gt;。这些数据结构是构建 AI 系统的基础组件。&lt;/p&gt;&#xA;&lt;p&gt;控制流程方面，Python 提供了清晰的条件判断和循环语句。使用 &lt;code&gt;if-else&lt;/code&gt; 可以根据条件执行不同逻辑，比如判断学生成绩是否及格；&lt;code&gt;for&lt;/code&gt; 循环可以遍历数据集中的每一条记录，常用于训练模型时的批量处理。Python 还有独特的“列表推导式”，可以用一行代码生成新列表，如 &lt;code&gt;[x**2 for x in range(5)]&lt;/code&gt; 会创建 &lt;code&gt;[0, 1, 4, 9, 16]&lt;/code&gt;，这种简洁的表达方式在数据预处理中极为常用。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on fanchen&#39;s blog</title>
-    <link>https://frefsd-gzi.github/hugo-dev/</link>
+    <link>https://frefsd.github.io/hugo-dev/</link>
     <description>Recent content in Home on fanchen&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://frefsd-gzi.github/hugo-dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://frefsd.github.io/hugo-dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C# 快速入门指南</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/csharp/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/csharp/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/csharp/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/csharp/</guid>
       <description>&lt;h1 id=&#34;c-快速入门指南&#34;&gt;C# 快速入门指南&lt;/h1&gt;
 &lt;h2 id=&#34;先了解-c-语言&#34;&gt;先了解 C# 语言&lt;/h2&gt;
 &lt;p&gt;C#（读作 “C Sharp”）是由微软开发的一种现代、类型安全、面向对象的编程语言，最初发布于 2000 年，运行在 .NET 平台上。&lt;/p&gt;
@@ -134,10 +134,10 @@
     
     <item>
       <title>Docker 快速入门指南</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/docker-development-workflow/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/docker-development-workflow/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/docker-development-workflow/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/docker-development-workflow/</guid>
       <description>&lt;h1 id=&#34;docker-快速入门指南&#34;&gt;Docker 快速入门指南&lt;/h1&gt;
 &lt;h2 id=&#34;先了解-docker&#34;&gt;先了解 Docker&lt;/h2&gt;
 &lt;p&gt;Docker 是一个开源的&lt;strong&gt;容器化平台&lt;/strong&gt;，它允许你将应用程序及其依赖（如库、配置、环境变量）打包成一个轻量级、可移植的“容器”，并在任何支持 Docker 的环境中运行。&lt;/p&gt;
@@ -213,10 +213,10 @@
     
     <item>
       <title>HTML &amp; CSS 极简入门</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/css-grid-flexbox/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/css-grid-flexbox/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/css-grid-flexbox/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/css-grid-flexbox/</guid>
       <description>&lt;h1 id=&#34;html--css-极简入门&#34;&gt;HTML &amp;amp; CSS 极简入门&lt;/h1&gt;
 &lt;h2 id=&#34;先了解-html-与-css&#34;&gt;先了解 HTML 与 CSS&lt;/h2&gt;
 &lt;ul&gt;
@@ -279,10 +279,10 @@
     
     <item>
       <title>Java 面向对象指南</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/java/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/java/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/java/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/java/</guid>
       <description>&lt;h1 id=&#34;java-面向对象指南&#34;&gt;Java 面向对象指南&lt;/h1&gt;
 &lt;h2 id=&#34;先了解-java-与面向对象&#34;&gt;先了解 Java 与面向对象&lt;/h2&gt;
 &lt;p&gt;Java 是一门&lt;strong&gt;纯面向对象的语言&lt;/strong&gt;，程序通过“类”和“对象”建模现实世界。&lt;/p&gt;
@@ -350,10 +350,10 @@
     
     <item>
       <title>MyBatis-Plus</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/plus/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/plus/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/plus/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/plus/</guid>
       <description>&lt;h1 id=&#34;mybatis-plus&#34;&gt;MyBatis-Plus&lt;/h1&gt;
 &lt;h2 id=&#34;一什么是-mybatis-plus&#34;&gt;一、什么是 MyBatis-Plus？&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;MyBatis-Plus&lt;/strong&gt;（简称 MP）是 &lt;a href=&#34;https://mybatis.org/mybatis-3/&#34;&gt;MyBatis&lt;/a&gt; 的增强工具，在 &lt;strong&gt;不改变 MyBatis 原有功能的基础上&lt;/strong&gt;，提供了大量“开箱即用”的便捷功能，极大地简化了单表 CRUD 操作，提升开发效率。&lt;/p&gt;
@@ -413,10 +413,10 @@
     
     <item>
       <title>MySQL CRUD 快速指南</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/mysql/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/mysql/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/mysql/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/mysql/</guid>
       <description>&lt;h1 id=&#34;mysql-crud-快速指南&#34;&gt;MySQL CRUD 快速指南&lt;/h1&gt;
 &lt;p&gt;一个完整的 MySQL 增删改查（CRUD）示例，包含建表、插入、查询、更新、删除操作，一步到位。&lt;/p&gt;
 &lt;h2 id=&#34;完整-crud-示例&#34;&gt;完整 CRUD 示例&lt;/h2&gt;
@@ -459,10 +459,10 @@
     
     <item>
       <title>Python 与人工智能：从零开始的完整入门指南</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/python/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/python/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/python/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/python/</guid>
       <description>&lt;h1 id=&#34;python-与人工智能从零开始的完整入门指南&#34;&gt;Python 与人工智能：从零开始的完整入门指南&lt;/h1&gt;
 &lt;p&gt;在当今科技时代，人工智能（AI）正深刻改变着我们的生活——从语音助手到自动驾驶，从智能推荐到大语言模型。而在这场技术革命中，&lt;strong&gt;Python 是最核心、最广泛使用的编程语言&lt;/strong&gt;。它不仅是 AI 研究的首选工具，也是工业界部署 AI 应用的主流选择。无论是谷歌、Meta、OpenAI 还是国内的百度、阿里、腾讯，它们的 AI 系统背后都离不开 Python 的支持。&lt;/p&gt;
 &lt;p&gt;为什么 Python 能成为人工智能的“第一语言”？答案在于它的三大优势：&lt;strong&gt;语法简洁、生态强大、社区活跃&lt;/strong&gt;。Python 的语法接近自然语言，学习门槛低，开发效率高，让研究人员和工程师能快速实现想法。更重要的是，Python 拥有为 AI 量身定制的庞大库生态系统，覆盖数据处理、机器学习、深度学习、自然语言处理等所有关键领域。全球数百万开发者持续贡献代码、教程和预训练模型，使得 Python 成为进入 AI 世界的“通用钥匙”。&lt;/p&gt;
@@ -472,10 +472,10 @@
     
     <item>
       <title>Redis 快速入门指南</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/redis/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/redis/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/redis/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/redis/</guid>
       <description>&lt;h1 id=&#34;redis-快速入门指南&#34;&gt;Redis 快速入门指南&lt;/h1&gt;
 &lt;p&gt;一个完整的 Redis 实战示例：用一组连贯命令演示如何使用 Redis 存储用户信息、记录行为、实现缓存与排行榜，掌握核心操作。&lt;/p&gt;
 &lt;h2 id=&#34;完整合集用户系统实战&#34;&gt;完整合集：用户系统实战&lt;/h2&gt;
@@ -524,10 +524,10 @@
     
     <item>
       <title>SSM 框架入门：Java Web 开发的黄金组合</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/ssm/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/ssm/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/ssm/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/ssm/</guid>
       <description>&lt;h1 id=&#34;ssm-框架入门java-web-开发的黄金组合&#34;&gt;SSM 框架入门：Java Web 开发的黄金组合&lt;/h1&gt;
 &lt;p&gt;接触 Java Web 开发三个月后，我深刻体会到 SSM 框架的强大——它将开发效率与系统稳定性完美结合，是后端新手入门的不二之选。&lt;/p&gt;
 &lt;h2 id=&#34;框架优势&#34;&gt;框架优势&lt;/h2&gt;
@@ -555,10 +555,10 @@
     
     <item>
       <title>Vue.js 入门指南：用组合式 API 构建现代前端</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/vue/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/vue/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/vue/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/vue/</guid>
       <description>&lt;h1 id=&#34;vuejs-入门指南用组合式-api-构建现代前端&#34;&gt;Vue.js 入门指南：用组合式 API 构建现代前端&lt;/h1&gt;
 &lt;p&gt;告别冗长的 Options API，Vue 3 的组合式 API 让逻辑复用更简单、代码组织更清晰。&lt;br&gt;
 无论你是从 React 转来，还是前端新手，都能快速上手并提升开发效率。&lt;/p&gt;
@@ -576,10 +576,10 @@
     
     <item>
       <title>微服务架构实战指南：构建高可用、可扩展的现代系统</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/cloud/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/cloud/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/cloud/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/cloud/</guid>
       <description>&lt;h1 id=&#34;微服务架构实战指南构建高可用可扩展的现代系统&#34;&gt;微服务架构实战指南：构建高可用、可扩展的现代系统&lt;/h1&gt;
 &lt;p&gt;在多个大型项目中落地微服务后，我总结出这套经过验证的技术栈和设计原则。&lt;br&gt;
 无论你是从单体迁移，还是新建云原生应用，这套方案都能帮你少走弯路。&lt;/p&gt;
@@ -625,10 +625,10 @@
     
     <item>
       <title>现代 JavaScript 异步编程模式</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/javascript-async-patterns/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/javascript-async-patterns/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/javascript-async-patterns/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/javascript-async-patterns/</guid>
       <description>&lt;h1 id=&#34;现代-javascript-异步编程模式&#34;&gt;现代 JavaScript 异步编程模式&lt;/h1&gt;
 &lt;p&gt;探索从回调函数到 async/await 及更高级异步模式的演变。&lt;/p&gt;
 &lt;h2 id=&#34;promise-链与-asyncawait-对比&#34;&gt;Promise 链与 Async/Await 对比&lt;/h2&gt;
@@ -651,10 +651,10 @@
     
     <item>
       <title>Travel Timeline</title>
-      <link>https://frefsd-gzi.github/hugo-dev/travel/</link>
+      <link>https://frefsd.github.io/hugo-dev/travel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://frefsd-gzi.github/hugo-dev/travel/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/travel/</guid>
       <description>&lt;p&gt;Follow my adventures as a digital nomad, exploring different cities and cultures while building amazing projects.&lt;/p&gt;</description>
     </item>
     

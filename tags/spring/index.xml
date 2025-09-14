@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spring on fanchen&#39;s blog</title>
-    <link>https://frefsd-gzi.github/hugo-dev/tags/spring/</link>
+    <link>https://frefsd.github.io/hugo-dev/tags/spring/</link>
     <description>Recent content in Spring on fanchen&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://frefsd-gzi.github/hugo-dev/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frefsd.github.io/hugo-dev/tags/spring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSM 框架入门：Java Web 开发的黄金组合</title>
-      <link>https://frefsd-gzi.github/hugo-dev/posts/ssm/</link>
+      <link>https://frefsd.github.io/hugo-dev/posts/ssm/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://frefsd-gzi.github/hugo-dev/posts/ssm/</guid>
+      <guid>https://frefsd.github.io/hugo-dev/posts/ssm/</guid>
       <description>&lt;h1 id=&#34;ssm-框架入门java-web-开发的黄金组合&#34;&gt;SSM 框架入门：Java Web 开发的黄金组合&lt;/h1&gt;&#xA;&lt;p&gt;接触 Java Web 开发三个月后，我深刻体会到 SSM 框架的强大——它将开发效率与系统稳定性完美结合，是后端新手入门的不二之选。&lt;/p&gt;&#xA;&lt;h2 id=&#34;框架优势&#34;&gt;框架优势&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;开发高效&lt;/strong&gt;：Spring 管理依赖，MVC 分层清晰&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;灵活解耦&lt;/strong&gt;：Spring + Spring MVC + MyBatis 各司其职&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;社区成熟&lt;/strong&gt;：文档丰富，问题好查，学习资源多&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;成本低廉&lt;/strong&gt;：可部署在普通服务器，适合中小项目&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;常见挑战&#34;&gt;常见挑战&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;配置繁琐&lt;/strong&gt;：XML 配置多，初学容易晕头转向&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;环境搭建&lt;/strong&gt;：整合三大框架需要耐心调试&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;事务管理&lt;/strong&gt;：Spring 声明式事务需理解原理才能用好&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;实用开发建议&#34;&gt;实用开发建议&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;先跑通 demo&lt;/strong&gt;：从一个简单的用户增删改查开始&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;善用注解&lt;/strong&gt;：用 &lt;code&gt;@Controller&lt;/code&gt;、&lt;code&gt;@Service&lt;/code&gt; 替代 XML 配置&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;日志先行&lt;/strong&gt;：集成 Logback，方便排查问题&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;分层清晰&lt;/strong&gt;：严格遵循 Controller → Service → Dao 结构&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;SSM 虽然不如 Spring Boot 现代，但它是理解 Spring 生态的基石。掌握它，你就真正踏入了 Java 后端的大门！&lt;/p&gt;</description>
     </item>
   </channel>
