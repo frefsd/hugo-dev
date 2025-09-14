@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+<title>DevOps | fanchen&#39;s blog</title>
+<meta name="description" content="看不清未来时，就比别人坚持久一点">
+
+
+<meta property="og:title" content="DevOps | fanchen&#39;s blog">
+<meta property="og:description" content="看不清未来时，就比别人坚持久一点">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://frefsd-gzi.github/hugo-dev/categories/devops/">
+<meta property="og:site_name" content="fanchen&#39;s blog">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DevOps | fanchen&#39;s blog">
+<meta name="twitter:description" content="看不清未来时，就比别人坚持久一点">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "DevOps | fanchen\u0027s blog",
+  "url": "https:\/\/frefsd-gzi.github\/hugo-dev\/categories\/devops\/",
+  
+}
+</script>
+    
+
+<link rel="stylesheet" href="/hugo-dev/scss/main.min.9827e961b9e5493436df96aaa98eb1d93573904a9423337a7bb3f56e57980af3.css" integrity="sha256-mCfpYbnlSTQ235aqqY6x2TVzkEqUIzN6e7P1bleYCvM=">
+
+
+
+<script src="/hugo-dev/js/main.min.1dc48d277f58c447b08394eeabd1a9c2ee6bacc162b90044cc98b07898af3d86.js" integrity="sha256-HcSNJ39YxEewg5Tuq9Gpwu5rrMFiuQBEzJiweJivPYY=" defer></script>
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2310RJEC91"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2310RJEC91');
+</script>
+    
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <nav role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <div class="nav-container">
+            <a href="https://frefsd-gzi.github/hugo-dev/" class="logo" aria-label="fanchen&#39;s blog - Home">凡尘</a>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="https://frefsd-gzi.github/hugo-dev/" aria-current="false">首页</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/social/" aria-current="false">社交媒体</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/posts/" aria-current="false">博客</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/portfolio/" aria-current="false">作品集</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/about/" aria-current="false">关于</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/travel/" aria-current="false">旅行</a></li>
+            </ul>
+            <div class="lang-switcher" role="group" aria-label="Language selection">
+                
+                <a href="https://frefsd-gzi.github/hugo-dev/" 
+                   class="lang-link active" 
+                   aria-label="Switch to " 
+                   aria-current="true">ZH</a>
+                
+            </div>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">☰</button>
+        </div>
+    </div>
+</nav>
+    <main id="main" role="main">
+        
+  <div style="max-width: 900px; margin: 5rem auto; padding: 2rem; background: rgba(255,255,255,0.03); border-radius: 15px; border: 1px solid rgba(255,255,255,0.1);">
+    <h1 style="color: #00d4ff; margin-bottom: 2rem;">
+      📁 "DevOps" 分类下的文章
+    </h1>
+
+    
+      <ul style="list-style: none; padding: 0;">
+        
+          <li style="margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px dashed rgba(0,212,255,0.2);">
+            <h2 style="margin: 0;">
+              <a href="https://frefsd-gzi.github/hugo-dev/posts/docker-development-workflow/" style="color: #00d4ff; text-decoration: none;">
+                Docker 快速入门指南
+              </a>
+            </h2>
+            <p style="color: #aaa; font-size: 0.9em; margin: 0.5rem 0;">
+              📅 2025-09-13 &nbsp; | &nbsp; 📝 2 分钟阅读
+            </p>
+            <p style="color: #ccc;">
+              <h1 id="docker-快速入门指南">Docker 快速入门指南</h1>
+<h2 id="先了解-docker">先了解 Docker</h2>
+<p>Docker 是一个开源的<strong>容器化平台</strong>，它允许你将应用程序及其依赖（如库、配置、环境变量）打包成一个轻量级、可移植的“容器”，并在任何支持 Docker 的环境中运行。</p>
+<p>传统部署中，我们常遇到：“在我机器上能跑！”的问题。<br>
+而 Docker 通过<strong>隔离环境</strong>，彻底解决了“开发环境 vs 生产环境不一致”的痛点。</p>
+<h3 id="核心概念">核心概念</h3>
+<ul>
+<li><strong>镜像（Image）</strong>：一个只读模板，包含运行应用所需的一切（如 <code>nginx:latest</code>）。</li>
+<li><strong>容器（Container）</strong>：镜像的运行实例，可以启动、停止、删除（如一个正在运行的 Nginx 服务）。</li>
+<li><strong>Dockerfile</strong>：一个文本文件，定义如何构建镜像（类似“配方”）。</li>
+<li><strong>Docker Compose</strong>：用于定义和运行多容器应用（如 Web + DB + Cache）。</li>
+<li><strong>Registry</strong>：镜像仓库，如 <a href="https://hub.docker.com">Docker Hub</a>，可上传/下载镜像。</li>
+</ul>
+<h3 id="为什么使用-docker">为什么使用 Docker？</h3>
+<ul>
+<li>✅ <strong>环境一致性</strong>：一次构建，到处运行</li>
+<li>✅ <strong>快速部署</strong>：秒级启动容器</li>
+<li>✅ <strong>资源高效</strong>：比虚拟机更轻量，共享宿主机内核</li>
+<li>✅ <strong>微服务友好</strong>：每个服务一个容器，独立部署</li>
+<li>✅ <strong>CI/CD 集成</strong>：与 Jenkins、GitHub Actions 等无缝协作</li>
+</ul>
+<p>Docker 已成为现代云原生开发的<strong>基础设施标准</strong>。</p>
+<h2 id="常用-docker-命令合集实战速查">常用 Docker 命令合集（实战速查）</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># 1. 镜像操作</span>
+</span></span><span style="display:flex;"><span>docker images                    <span style="color:#75715e"># 查看本地所有镜像</span>
+</span></span><span style="display:flex;"><span>docker pull nginx:latest         <span style="color:#75715e"># 从 Docker Hub 拉取镜像</span>
+</span></span><span style="display:flex;"><span>docker build -t myapp:1.0 .      <span style="color:#75715e"># 使用当前目录 Dockerfile 构建镜像</span>
+</span></span><span style="display:flex;"><span>docker rmi myapp:1.0             <span style="color:#75715e"># 删除指定镜像</span>
+</span></span><span style="display:flex;"><span>docker rmi <span style="color:#66d9ef">$(</span>docker images -q<span style="color:#66d9ef">)</span>   <span style="color:#75715e"># 删除所有本地镜像（慎用！）</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 2. 容器操作</span>
+</span></span><span style="display:flex;"><span>docker run -d --name web -p 8080:80 nginx:latest    <span style="color:#75715e"># 启动容器（后台模式，端口映射）</span>
+</span></span><span style="display:flex;"><span>docker run -it ubuntu:20.04 /bin/bash               <span style="color:#75715e"># 启动并进入容器（交互模式）</span>
+</span></span><span style="display:flex;"><span>docker stop web                    <span style="color:#75715e"># 停止容器</span>
+</span></span><span style="display:flex;"><span>docker start web                   <span style="color:#75715e"># 启动已停止的容器</span>
+</span></span><span style="display:flex;"><span>docker restart web                 <span style="color:#75715e"># 重启容器</span>
+</span></span><span style="display:flex;"><span>docker rm web                      <span style="color:#75715e"># 删除容器</span>
+</span></span><span style="display:flex;"><span>docker rm <span style="color:#66d9ef">$(</span>docker ps -aq<span style="color:#66d9ef">)</span>         <span style="color:#75715e"># 删除所有容器（慎用！）</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 3. 查看状态</span>
+</span></span><span style="display:flex;"><span>docker ps                          <span style="color:#75715e"># 查看正在运行的容器</span>
+</span></span><span style="display:flex;"><span>docker ps -a                       <span style="color:#75715e"># 查看所有容器（包括已停止）</span>
+</span></span><span style="display:flex;"><span>docker logs web                    <span style="color:#75715e"># 查看容器日志</span>
+</span></span><span style="display:flex;"><span>docker logs -f web                 <span style="color:#75715e"># 实时跟踪日志（类似 tail -f）</span>
+</span></span><span style="display:flex;"><span>docker exec -it web /bin/bash      <span style="color:#75715e"># 进入正在运行的容器</span>
+</span></span><span style="display:flex;"><span>docker inspect web                 <span style="color:#75715e"># 查看容器详细信息（IP、挂载等）</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 4. 数据卷（持久化数据）</span>
+</span></span><span style="display:flex;"><span>docker volume create app-data      <span style="color:#75715e"># 创建命名卷</span>
+</span></span><span style="display:flex;"><span>docker run -d -v app-data:/app/data myapp:1.0   <span style="color:#75715e"># 挂载卷到容器</span>
+</span></span><span style="display:flex;"><span>docker volume ls                   <span style="color:#75715e"># 列出所有卷</span>
+</span></span><span style="display:flex;"><span>docker volume rm app-data          <span style="color:#75715e"># 删除卷</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 5. 网络</span>
+</span></span><span style="display:flex;"><span>docker network create app-net      <span style="color:#75715e"># 创建自定义网络</span>
+</span></span><span style="display:flex;"><span>docker run -d --network app-net --name db mongo  <span style="color:#75715e"># 容器加入网络</span>
+</span></span><span style="display:flex;"><span>docker network ls                  <span style="color:#75715e"># 查看网络</span>
+</span></span><span style="display:flex;"><span>docker network inspect app-net     <span style="color:#75715e"># 查看网络详情</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 6. Docker Compose（多容器应用）</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 创建 docker-compose.yml 后使用：</span>
+</span></span><span style="display:flex;"><span>docker-compose up -d               <span style="color:#75715e"># 启动所有服务（后台）</span>
+</span></span><span style="display:flex;"><span>docker-compose down                <span style="color:#75715e"># 停止并删除所有服务</span>
+</span></span><span style="display:flex;"><span>docker-compose logs -f             <span style="color:#75715e"># 查看所有服务日志</span>
+</span></span><span style="display:flex;"><span>docker-compose build               <span style="color:#75715e"># 重新构建服务镜像</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 7. 清理资源（释放磁盘空间）</span>
+</span></span><span style="display:flex;"><span>docker system prune                <span style="color:#75715e"># 清理未使用的容器、网络、镜像、构建缓存</span>
+</span></span><span style="display:flex;"><span>docker system prune -a             <span style="color:#75715e"># 清理所有未使用的资源（更彻底）</span>
+</span></span><span style="display:flex;"><span>docker volume prune                <span style="color:#75715e"># 删除未使用的卷</span>
+</span></span></code></pre></div>
+            </p>
+          </li>
+        
+      </ul>
+    
+  </div>
+
+    </main>
+    <footer style="background: rgba(0, 0, 0, 0.3); padding: 2rem 0; margin-top: 4rem; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+    <div class="container">
+        <p style="color: #888; margin: 0;">
+            Copyright © 2025 • Powered by <a href="https://github.com/frefsd" target="_blank" style="color: #00d4ff; text-decoration: none;">frefsd</a>(<a href="https://github.com/frefsd" target="_blank" style="color: #00d4ff; text-decoration: none;">frefsd</a>) • 
+            Made by <a href="https://gitee.com/mundane-w" target="_blank" style="color: #9d50bb; text-decoration: none;">fanchen</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>

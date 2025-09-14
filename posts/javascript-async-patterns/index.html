@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+<title>现代 JavaScript 异步编程模式 | fanchen&#39;s blog</title>
+<meta name="description" content="现代 JavaScript 异步编程模式 探索从回调函数到 async/await 及更高级异步模式的演变。
+Promise 链与 Async/Await 对比 // Promise 链 fetchUser(id) .then(user =&gt; fetchPosts(user.id)) .then(posts …">
+
+
+<meta property="og:title" content="现代 JavaScript 异步编程模式 | fanchen&#39;s blog">
+<meta property="og:description" content="现代 JavaScript 异步编程模式 探索从回调函数到 async/await 及更高级异步模式的演变。
+Promise 链与 Async/Await 对比 // Promise 链 fetchUser(id) .then(user =&gt; fetchPosts(user.id)) .then(posts …">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://frefsd-gzi.github/hugo-dev/posts/javascript-async-patterns/">
+<meta property="og:site_name" content="fanchen&#39;s blog">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="现代 JavaScript 异步编程模式 | fanchen&#39;s blog">
+<meta name="twitter:description" content="现代 JavaScript 异步编程模式 探索从回调函数到 async/await 及更高级异步模式的演变。
+Promise 链与 Async/Await 对比 // Promise 链 fetchUser(id) .then(user =&gt; fetchPosts(user.id)) .then(posts …">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "name": "现代 JavaScript 异步编程模式 | fanchen\u0027s blog",
+  "url": "https:\/\/frefsd-gzi.github\/hugo-dev\/posts\/javascript-async-patterns\/",
+  
+  "headline": "现代 JavaScript 异步编程模式",
+  "datePublished": "2025-09-01T00:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "fanchen"
+  }
+  
+}
+</script>
+    
+
+<link rel="stylesheet" href="/hugo-dev/scss/main.min.9827e961b9e5493436df96aaa98eb1d93573904a9423337a7bb3f56e57980af3.css" integrity="sha256-mCfpYbnlSTQ235aqqY6x2TVzkEqUIzN6e7P1bleYCvM=">
+
+
+
+<script src="/hugo-dev/js/main.min.1dc48d277f58c447b08394eeabd1a9c2ee6bacc162b90044cc98b07898af3d86.js" integrity="sha256-HcSNJ39YxEewg5Tuq9Gpwu5rrMFiuQBEzJiweJivPYY=" defer></script>
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2310RJEC91"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2310RJEC91');
+</script>
+    
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <nav role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <div class="nav-container">
+            <a href="https://frefsd-gzi.github/hugo-dev/" class="logo" aria-label="fanchen&#39;s blog - Home">凡尘</a>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="https://frefsd-gzi.github/hugo-dev/" aria-current="false">首页</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/social/" aria-current="false">社交媒体</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/posts/" aria-current="false">博客</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/portfolio/" aria-current="false">作品集</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/about/" aria-current="false">关于</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/travel/" aria-current="false">旅行</a></li>
+            </ul>
+            <div class="lang-switcher" role="group" aria-label="Language selection">
+                
+                <a href="https://frefsd-gzi.github/hugo-dev/" 
+                   class="lang-link active" 
+                   aria-label="Switch to " 
+                   aria-current="true">ZH</a>
+                
+            </div>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">☰</button>
+        </div>
+    </div>
+</nav>
+    <main id="main" role="main">
+        
+<div class="about-container">
+    <article class="about-content">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="btn-close"></span>
+                <span class="btn-minimize"></span>
+                <span class="btn-maximize"></span>
+            </div>
+            <div class="terminal-title">现代 JavaScript 异步编程模式.md</div>
+        </div>
+        <div class="terminal-body">
+            <div class="prompt-line">
+                <span class="prompt">$</span>
+                <span class="command">cat 现代 javascript 异步编程模式.md</span>
+            </div>
+            <div class="content">
+                <h1 id="现代-javascript-异步编程模式">现代 JavaScript 异步编程模式</h1>
+<p>探索从回调函数到 async/await 及更高级异步模式的演变。</p>
+<h2 id="promise-链与-asyncawait-对比">Promise 链与 Async/Await 对比</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Promise 链
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">fetchUser</span>(<span style="color:#a6e22e">id</span>)
+</span></span><span style="display:flex;"><span>  .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">user</span> =&gt; <span style="color:#a6e22e">fetchPosts</span>(<span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">id</span>))
+</span></span><span style="display:flex;"><span>  .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">posts</span> =&gt; <span style="color:#a6e22e">renderPosts</span>(<span style="color:#a6e22e">posts</span>))
+</span></span><span style="display:flex;"><span>  .<span style="color:#66d9ef">catch</span>(<span style="color:#a6e22e">handleError</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Async/Await 写法
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">user</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetchUser</span>(<span style="color:#a6e22e">id</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">posts</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">fetchPosts</span>(<span style="color:#a6e22e">user</span>.<span style="color:#a6e22e">id</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">renderPosts</span>(<span style="color:#a6e22e">posts</span>);
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">error</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">handleError</span>(<span style="color:#a6e22e">error</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+            </div>
+            
+        </div>
+    </article>
+</div>
+
+    </main>
+    <footer style="background: rgba(0, 0, 0, 0.3); padding: 2rem 0; margin-top: 4rem; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+    <div class="container">
+        <p style="color: #888; margin: 0;">
+            Copyright © 2025 • Powered by <a href="https://github.com/frefsd" target="_blank" style="color: #00d4ff; text-decoration: none;">frefsd</a>(<a href="https://github.com/frefsd" target="_blank" style="color: #00d4ff; text-decoration: none;">frefsd</a>) • 
+            Made by <a href="https://gitee.com/mundane-w" target="_blank" style="color: #9d50bb; text-decoration: none;">fanchen</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>

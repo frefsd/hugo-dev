@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on fanchen&#39;s blog</title>
+    <link>https://frefsd-gzi.github/hugo-dev/tags/</link>
+    <description>Recent content in Tags on fanchen&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://frefsd-gzi.github/hugo-dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/ai/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backend</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/backend/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/backend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beginner</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/beginner/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/beginner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cache</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/cache/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/cache/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud-Native</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/cloud-native/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/cloud-native/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Composition-Api</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/composition-api/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/composition-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Container</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/container/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/container/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crud</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/crud/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/crud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Csharp</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/csharp/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/csharp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/css/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/database/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep-Learning</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/deep-learning/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devops</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/devops/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/docker/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dotnet</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/dotnet/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/frontend/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/frontend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/html/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/java/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Key-Value</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/key-value/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/key-value/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/kubernetes/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/linux/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine-Learning</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/machine-learning/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microservices</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/microservices/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/microservices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mybatis</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/mybatis/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/mybatis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mybatis-Plus</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/mybatis-plus/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/mybatis-plus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mysql</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/mysql/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nosql</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/nosql/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/nosql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Object-Oriented</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/object-oriented/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/object-oriented/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oop</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/oop/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/oop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orm</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/orm/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/orm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/python/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redis</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/redis/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/redis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/spring/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/spring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring-Boot</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/spring-boot/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/spring-boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring-Cloud</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/spring-cloud/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/spring-cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/sql/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ssm</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/ssm/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/ssm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vue</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/vue/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/vue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vue3</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/vue3/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/vue3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/web/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web开发</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/web%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/web%E5%BC%80%E5%8F%91/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Async</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/async/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/async/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Await</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/await/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/await/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/javascript/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Promises</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/promises/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/promises/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>异步</title>
+      <link>https://frefsd-gzi.github/hugo-dev/tags/%E5%BC%82%E6%AD%A5/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://frefsd-gzi.github/hugo-dev/tags/%E5%BC%82%E6%AD%A5/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

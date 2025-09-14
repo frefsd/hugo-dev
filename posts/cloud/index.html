@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+<title>微服务架构实战指南：构建高可用、可扩展的现代系统 | fanchen&#39;s blog</title>
+<meta name="description" content="微服务架构实战指南：构建高可用、可扩展的现代系统 在多个大型项目中落地微服务后，我总结出这套经过验证的技术栈和设计原则。
+无论你是从单体迁移，还是新建云原生应用，这套方案都能帮你少走弯路。
+服务通信与治理 REST &#43; OpenFeign：服务间调用简洁清晰 gRPC：高性能场景（如订单、支付） Spring …">
+
+
+<meta property="og:title" content="微服务架构实战指南：构建高可用、可扩展的现代系统 | fanchen&#39;s blog">
+<meta property="og:description" content="微服务架构实战指南：构建高可用、可扩展的现代系统 在多个大型项目中落地微服务后，我总结出这套经过验证的技术栈和设计原则。
+无论你是从单体迁移，还是新建云原生应用，这套方案都能帮你少走弯路。
+服务通信与治理 REST &#43; OpenFeign：服务间调用简洁清晰 gRPC：高性能场景（如订单、支付） Spring …">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://frefsd-gzi.github/hugo-dev/posts/cloud/">
+<meta property="og:site_name" content="fanchen&#39;s blog">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="微服务架构实战指南：构建高可用、可扩展的现代系统 | fanchen&#39;s blog">
+<meta name="twitter:description" content="微服务架构实战指南：构建高可用、可扩展的现代系统 在多个大型项目中落地微服务后，我总结出这套经过验证的技术栈和设计原则。
+无论你是从单体迁移，还是新建云原生应用，这套方案都能帮你少走弯路。
+服务通信与治理 REST &#43; OpenFeign：服务间调用简洁清晰 gRPC：高性能场景（如订单、支付） Spring …">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "name": "微服务架构实战指南：构建高可用、可扩展的现代系统 | fanchen\u0027s blog",
+  "url": "https:\/\/frefsd-gzi.github\/hugo-dev\/posts\/cloud\/",
+  
+  "headline": "微服务架构实战指南：构建高可用、可扩展的现代系统",
+  "datePublished": "2025-09-13T00:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "fanchen"
+  }
+  
+}
+</script>
+    
+
+<link rel="stylesheet" href="/hugo-dev/scss/main.min.9827e961b9e5493436df96aaa98eb1d93573904a9423337a7bb3f56e57980af3.css" integrity="sha256-mCfpYbnlSTQ235aqqY6x2TVzkEqUIzN6e7P1bleYCvM=">
+
+
+
+<script src="/hugo-dev/js/main.min.1dc48d277f58c447b08394eeabd1a9c2ee6bacc162b90044cc98b07898af3d86.js" integrity="sha256-HcSNJ39YxEewg5Tuq9Gpwu5rrMFiuQBEzJiweJivPYY=" defer></script>
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2310RJEC91"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-2310RJEC91');
+</script>
+    
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <nav role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <div class="nav-container">
+            <a href="https://frefsd-gzi.github/hugo-dev/" class="logo" aria-label="fanchen&#39;s blog - Home">凡尘</a>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="https://frefsd-gzi.github/hugo-dev/" aria-current="false">首页</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/social/" aria-current="false">社交媒体</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/posts/" aria-current="false">博客</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/portfolio/" aria-current="false">作品集</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/about/" aria-current="false">关于</a></li>
+                <li><a href="https://frefsd-gzi.github/hugo-dev/travel/" aria-current="false">旅行</a></li>
+            </ul>
+            <div class="lang-switcher" role="group" aria-label="Language selection">
+                
+                <a href="https://frefsd-gzi.github/hugo-dev/" 
+                   class="lang-link active" 
+                   aria-label="Switch to " 
+                   aria-current="true">ZH</a>
+                
+            </div>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">☰</button>
+        </div>
+    </div>
+</nav>
+    <main id="main" role="main">
+        
+<div class="about-container">
+    <article class="about-content">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="btn-close"></span>
+                <span class="btn-minimize"></span>
+                <span class="btn-maximize"></span>
+            </div>
+            <div class="terminal-title">微服务架构实战指南：构建高可用、可扩展的现代系统.md</div>
+        </div>
+        <div class="terminal-body">
+            <div class="prompt-line">
+                <span class="prompt">$</span>
+                <span class="command">cat 微服务架构实战指南：构建高可用、可扩展的现代系统.md</span>
+            </div>
+            <div class="content">
+                <h1 id="微服务架构实战指南构建高可用可扩展的现代系统">微服务架构实战指南：构建高可用、可扩展的现代系统</h1>
+<p>在多个大型项目中落地微服务后，我总结出这套经过验证的技术栈和设计原则。<br>
+无论你是从单体迁移，还是新建云原生应用，这套方案都能帮你少走弯路。</p>
+<h2 id="服务通信与治理">服务通信与治理</h2>
+<ul>
+<li><strong>REST + OpenFeign</strong>：服务间调用简洁清晰</li>
+<li><strong>gRPC</strong>：高性能场景（如订单、支付）</li>
+<li><strong>Spring Cloud Gateway</strong>：统一入口、路由、限流</li>
+<li><strong>Nacos/Consul</strong>：服务注册与发现，自动健康检查</li>
+</ul>
+<h2 id="服务可靠性保障">服务可靠性保障</h2>
+<ul>
+<li><strong>Sentinel/Hystrix</strong>：熔断降级，防止雪崩</li>
+<li><strong>Seata</strong>：分布式事务解决方案（AT/TCC 模式）</li>
+<li><strong>RabbitMQ/Kafka</strong>：异步解耦，削峰填谷</li>
+<li><strong>Redis</strong>：缓存热点数据，减轻数据库压力</li>
+</ul>
+<h2 id="部署与运维">部署与运维</h2>
+<ul>
+<li><strong>Docker</strong>：每个服务独立打包，环境一致</li>
+<li><strong>Kubernetes</strong>：自动化部署、扩缩容、自愈</li>
+<li><strong>Prometheus + Grafana</strong>：监控指标可视化</li>
+<li><strong>ELK/Sentry</strong>：日志收集与错误追踪</li>
+</ul>
+<h2 id="开发效率实践">开发效率实践</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e"># docker-compose.yml（本地快速启动）</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">version</span>: <span style="color:#e6db74">&#39;3.8&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">services</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">user-service</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">build</span>: <span style="color:#ae81ff">./user-service</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">ports</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;8081:8080&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">order-service</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">build</span>: <span style="color:#ae81ff">./order-service</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">ports</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;8082:8080&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">gateway</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">build</span>: <span style="color:#ae81ff">./gateway</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">ports</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;8080:8080&#34;</span>
+</span></span></code></pre></div>
+            </div>
+            
+        </div>
+    </article>
+</div>
+
+    </main>
+    <footer style="background: rgba(0, 0, 0, 0.3); padding: 2rem 0; margin-top: 4rem; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+    <div class="container">
+        <p style="color: #888; margin: 0;">
+            Copyright © 2025 • Powered by <a href="https://github.com/frefsd" target="_blank" style="color: #00d4ff; text-decoration: none;">frefsd</a>(<a href="https://github.com/frefsd" target="_blank" style="color: #00d4ff; text-decoration: none;">frefsd</a>) • 
+            Made by <a href="https://gitee.com/mundane-w" target="_blank" style="color: #9d50bb; text-decoration: none;">fanchen</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>
